@@ -27,7 +27,7 @@ CREATE TABLE `faculties` (
   `facultyName` varchar(100) NOT NULL,
   `province` varchar(30) NOT NULL,
   `city` varchar(60) NOT NULL,
-  `adress` varchar(200) NOT NULL,
+  `address` varchar(200) NOT NULL,
   `educationalInstitutionId` int DEFAULT NULL,
   PRIMARY KEY (`facultyId`)
 ) ENGINE=InnoDB AUTO_INCREMENT=465 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
