@@ -14,9 +14,7 @@ The project is a search engine with the university offer in Ecuador. It's still 
    1. educationalLevel: VARCHAR(60) It stores if the institution is a college or if it is an institution with a technician level.
    1. parentLocation: VARCHAR(100) NN
    
-<br>
-
- 1. **faculties:** It contains all the faculties that are related to their educational institution. It has the following fields:
+1. **faculties:** It contains all the faculties that are related to their educational institution. It has the following fields:
 
   1. facultyId: INTEGER (PK) AI
   1. facultyName: VARCHAR (100) NN
