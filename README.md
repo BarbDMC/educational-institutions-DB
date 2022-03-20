@@ -15,7 +15,6 @@ The project is a search engine with the university offer in Ecuador. It's still 
    1. parentLocation: VARCHAR(100) NN
    
 <br>
-
 1. **faculties:** It contains all the faculties that are related to their educational institution. It has the following fields:
 
   1. facultyId: INTEGER (PK) AI
