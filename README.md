@@ -58,7 +58,7 @@ The project is a search engine with the university offer in Ecuador. It's still 
    1. careerId: INTEGER (FK)
    1. modalityId: INTEGER (FK)
   
-  <br>
+<br>
 
 ## Educational Institutions Database ER Diagram
 
