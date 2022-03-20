@@ -41,22 +41,22 @@ The project is a search engine with the university offer in Ecuador. It's still 
 
 5. **modalities:** It contains the five kinds of modalities that exist in Ecuador for each career, face-to-face (presencial),blended (semipresencial), distance (a distancia), online (en linea), and dual learning. It has the following fields:
 
-  1. modalityId: INTEGER (PK) AI
-  1. modalityName: VARCHAR(45)
+   1. modalityId: INTEGER (PK) AI
+   1. modalityName: VARCHAR(45)
 <br>
 
 6. **careers_faculties:** It contains the relationship between the careers and the faculties where you can pursue certain careers. It has the following fields:
 
-  1. carrerFacultyId: INTEGER (FK) AI
-  1. facultyId: INTEGER (FK)
-  1. careerId: INTEGER (FK)
+   1. carrerFacultyId: INTEGER (FK) AI
+   1. facultyId: INTEGER (FK)
+   1. careerId: INTEGER (FK)
 <br>
 
 7. **careers_modalities:** It contains the relationship between careers and the modalities in which a career can be pursued. It has the following fields:
   
-  1. careerModalityId: INTEGER (FK) AI
-  1. careerId: INTEGER (FK)
-  1. modalityId: INTEGER (FK)
+   1. careerModalityId: INTEGER (FK) AI
+   1. careerId: INTEGER (FK)
+   1. modalityId: INTEGER (FK)
   
   <br>
 
