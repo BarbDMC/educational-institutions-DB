@@ -16,12 +16,12 @@ The project is a search engine with the university offer in Ecuador. It's still 
    
 1. **faculties:** It contains all the faculties that are related to their educational institution. It has the following fields:
 
-  1. facultyId: INTEGER (PK) AI
-  1. facultyName: VARCHAR (100) NN
-  1. province: VARCHAR(30) NN
-  1. city: VARCHAR(60) NN
-  1. address: VARCHAR(200)
-  1. educationalInstitutionId: INTEGER (FK) It stores the unique id of the educational institution which is related to the faculty.
+   1. facultyId: INTEGER (PK) AI
+   1. facultyName: VARCHAR (100) NN
+   1. province: VARCHAR(30) NN
+   1. city: VARCHAR(60) NN
+   1. address: VARCHAR(200)
+   1. educationalInstitutionId: INTEGER (FK) It stores the unique id of the educational institution which is related to the faculty.
 <br>
 
 1. **careers:** It contains all the academic careers that exist in Ecuador. It has the following fields:
