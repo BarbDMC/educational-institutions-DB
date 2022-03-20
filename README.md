@@ -15,7 +15,7 @@ The project is a search engine with the university offer in Ecuador. It's still 
    1. parentLocation: VARCHAR(100) NN
 <br>
 
-1. **faculties:** It contains all the faculties that are related to their educational institution. It has the following fields:
+2. **faculties:** It contains all the faculties that are related to their educational institution. It has the following fields:
 
    1. facultyId: INTEGER (PK) AI
    1. facultyName: VARCHAR (100) NN
@@ -25,7 +25,7 @@ The project is a search engine with the university offer in Ecuador. It's still 
    1. educationalInstitutionId: INTEGER (FK) It stores the unique id of the educational institution which is related to the faculty.
 <br>
 
-1. **careers:** It contains all the academic careers that exist in Ecuador. It has the following fields:
+3. **careers:** It contains all the academic careers that exist in Ecuador. It has the following fields:
 
     1. careerId: INTEGER (PK) AI
     1. careerName: VARCHAR(100) NN
@@ -33,26 +33,26 @@ The project is a search engine with the university offer in Ecuador. It's still 
     1. fieldOfStudyId: INTEGER (FK) It stores the unique id of the field of study that is related to the career. These fields or categories are stores in the fieldsOfStudy table.
 <br>
 
-1. **fieldsOfStudy:** It contains the categories or fields of study to sort out the careers. It has the following fields:
+4. **fieldsOfStudy:** It contains the categories or fields of study to sort out the careers. It has the following fields:
   
    1. fieldOfStudyId: INTEGER (PK) AI
    1. fieldOfStudyName: VARCHAR(60)
 <br>
 
-1. **modalities:** It contains the five kinds of modalities that exist in Ecuador for each career, face-to-face (presencial),blended (semipresencial), distance (a distancia), online (en linea), and dual learning. It has the following fields:
+5. **modalities:** It contains the five kinds of modalities that exist in Ecuador for each career, face-to-face (presencial),blended (semipresencial), distance (a distancia), online (en linea), and dual learning. It has the following fields:
 
   1. modalityId: INTEGER (PK) AI
   1. modalityName: VARCHAR(45)
 <br>
 
-1. **careers_faculties:** It contains the relationship between the careers and the faculties where you can pursue certain careers. It has the following fields:
+6. **careers_faculties:** It contains the relationship between the careers and the faculties where you can pursue certain careers. It has the following fields:
 
   1. carrerFacultyId: INTEGER (FK) AI
   1. facultyId: INTEGER (FK)
   1. careerId: INTEGER (FK)
 <br>
 
-1. **careers_modalities:** It contains the relationship between careers and the modalities in which a career can be pursued. It has the following fields:
+7. **careers_modalities:** It contains the relationship between careers and the modalities in which a career can be pursued. It has the following fields:
   
   1. careerModalityId: INTEGER (FK) AI
   1. careerId: INTEGER (FK)
